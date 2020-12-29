@@ -1,5 +1,21 @@
 # Hello world example
 
+---
+
+## Run as an Azure Functions app
+
+All the tools are installed in the devcontainer. Open it with the VS Code Remote Containers extension.
+
+```bash
+cd examples/hello
+pub get
+mkdir -p build
+dart compile exe -o build
+func start
+```
+
+---
+
 This example handles HTTP GET requests by responding with 'Hello, World!'.
 
 ```dart

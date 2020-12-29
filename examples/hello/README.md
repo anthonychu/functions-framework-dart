@@ -8,9 +8,9 @@ All the tools are installed in the devcontainer. Open it with the VS Code Remote
 
 ```bash
 cd examples/hello
-pub get
+dart pub get
 mkdir -p build
-dart compile exe -o build
+dart compile exe -o build/server.exe bin/server.dart
 func start
 ```
 
